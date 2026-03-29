@@ -1,38 +1,34 @@
-# DEPI GenAI - R4
+# DEPI GenAI — R4 Journey
 
-My progress repository for the **Digital Egypt Pioneers Initiative (DEPI) Generative & Agentic AI** professional course.
+**Digital Egypt Pioneers Initiative (DEPI)**  
+Generative & Agentic AI Professional Track (CAI4_AIS3_S1)
 
-## Course Overview
-Hands-on track covering ML fundamentals to advanced Generative AI, Agents, RAG, and deployment. Includes ethics, prompting, multi-agent systems, and a capstone project.
+A hands-on 120-hour program covering Machine Learning fundamentals, Deep Learning, Transformers, Generative AI, Prompt Engineering, Agentic Systems, RAG, deployment, and a final capstone project.
 
-### Key Modules
-- **Intro & Orientation**
-- **ML Fundamentals** 
-- **Deep Learning & Transformers** – NNs, CNNs, RNNs, Transformers, BERT/GPT
-- **Generative AI Fundamentals** – VAEs, GANs, Diffusion, LoRA/PEFT, Prompting, Ethics
-- **Advanced Prompting & Reasoning** – CoT, Tool Use, Function Calling
-- **Agentic AI Fundamentals** – Autonomous Agents, Planning, Memory, Safety
-- **Multi-Agent Systems** – Coordination, Cooperation, Simulation
-- **RAG & Memory Systems**
-- **Agent Deployment & Monitoring** 
-- **Industry Trends & Governance** 
-- **Capstone Project** 
+### Repository Structure
 
-**Total: 120 hours / 40 sessions**
+This organization is organized by topic for better readability and sharing:
 
-## Repository Structure & Progress
-- **Basics** → Early modules: ML fundamentals, simple NNs, regression/classification demos
-- **Search stuff** → Initial experiments related to retrieval/search (preparing for RAG)
+| Repository              | Focus                                      | Type                  |
+|-------------------------|--------------------------------------------|-----------------------|
+| [fundamentals](https://github.com/DEPI-GenAI/fundamentals) | Machine Learning & Deep Learning basics   | Notebooks + exercises |
+| [computer-vision](https://github.com/DEPI-GenAI/computer-vision) | Computer Vision tasks & projects          | Notebooks + tasks     |
+| [image-captioning](https://github.com/DEPI-GenAI/image-captioning) | RNN, LSTM & Transformer-based image captioning | Full project       |
+| [qlora-finetuning](https://github.com/DEPI-GenAI/qlora-finetuning) | QLoRA fine-tuning of OPT-125M + Gradio UI | Full project          |
+| [agentic](https://github.com/DEPI-GenAI/agentic) | Evolving Agentic AI system (tools, memory, self-correction, decision engine) | Growing project |
+| [session-notes](https://github.com/DEPI-GenAI/session-notes) | Session notes and key takeaways           | Documentation         |
 
-Work in progress – updating with notebooks and notes as the course advances.
+*(Session-Notebooks has been archived as content was moved into topic-specific repositories.)*
 
-## Tech Stack
-Python, PyTorch, Hugging Face (Transformers, Diffusers), Jupyter Notebook
+### Tech Stack
+- **Languages**: Python
+- **Frameworks**: PyTorch, Hugging Face Transformers, Diffusers, Gradio, FastAPI
+- **Tools**: Jupyter Notebook, QLoRA, Agentic patterns
 
-## Quick Start
+### Quick Start
+
 ```bash
-git clone https://github.com/0xmennatullah/DEPI-GenAI.git
-cd DEPI-GenAI
-pip install torch torchvision torchaudio transformers diffusers accelerate jupyter scikit-learn matplotlib
+git clone https://github.com/DEPI-GenAI/<repo-name>.git
+cd <repo-name>
+pip install -r requirements.txt
 jupyter notebook
-```
