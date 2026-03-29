@@ -32,3 +32,11 @@ git clone https://github.com/DEPI-GenAI/<repo-name>.git
 cd <repo-name>
 pip install -r requirements.txt
 jupyter notebook
+```
+### Goals of This Organization
+
+- Showcase clean, well-organized work from the DEPI GenAI course
+- Make individual projects easy to share and reference
+- Build a professional portfolio for future opportunities
+
+Feel free to explore the repositories above. Feedback and contributions are welcome!
